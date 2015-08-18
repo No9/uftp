@@ -1,0 +1,32 @@
+{
+  "name": "uftp",
+  "version": "1.0.0",
+  "description": "UDP FTP Encrypted Multicast FTP",
+  "main": "uftp.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/No9/uftp.git"
+  },
+  "keywords": [
+    "uftp",
+    "file",
+    "transfer",
+    "ftp"
+  ],
+  "author": "anton whalley",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/No9/uftp/issues"
+  },
+  "homepage": "https://github.com/No9/uftp",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.0.5"
+  }
+}
