@@ -47,26 +47,28 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\openssl\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\config\k8;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
-      <ExceptionHandling>Sync</ExceptionHandling>
+      <DisableSpecificWarnings>4355;4530;4267;4244;4006;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
       <MinimalRebuild>false</MinimalRebuild>
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=uftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>false</TreatWarningAsError>
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;;C:\OpenSSL-Win64\lib\libeay32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;</AdditionalDependencies>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -77,18 +79,18 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\openssl\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\config\k8;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=uftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\openssl\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\config\k8;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4355;4530;4267;4244;4006;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ExceptionHandling>false</ExceptionHandling>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -110,7 +112,7 @@
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;;C:\OpenSSL-Win64\lib\libeay32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;</AdditionalDependencies>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -124,7 +126,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\openssl\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\openssl\config\k8;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=uftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;BUILDING_NODE_EXTENSION;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -133,6 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\uftp.cc"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\deps\libuftp.vcxproj">
+      <Project>{F7A6D60A-F774-73CB-AF34-0A043C605EBC}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>

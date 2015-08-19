@@ -1,6 +1,19 @@
 Microsoft Visual Studio Solution File, Format Version 13.00
 # Visual Studio 2013
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(deps)", "..\dev\github\uftp\deps", "{569C5FFB-4CDE-635B-9D9C-820032ADAE87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(dev)", "..\dev", "{92DA0AC8-EB7E-3F75-7898-AB06F56F21A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(github)", "..\dev\github", "{0780DE66-1A46-2C93-A617-0FCFDA3DEBDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(uftp)", "..\dev\github\uftp", "{EDD1C0DB-E732-E692-AEBA-F3D1119315F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuftp", "..\deps\libuftp.vcxproj", "{F7A6D60A-F774-73CB-AF34-0A043C605EBC}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uftp", "uftp.vcxproj", "{584C8F28-37F1-CD89-92C9-5E00E92BC774}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC} = {F7A6D60A-F774-73CB-AF34-0A043C605EBC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +25,18 @@ Global
 		{584C8F28-37F1-CD89-92C9-5E00E92BC774}.Debug|x64.Build.0 = Debug|x64
 		{584C8F28-37F1-CD89-92C9-5E00E92BC774}.Release|x64.ActiveCfg = Release|x64
 		{584C8F28-37F1-CD89-92C9-5E00E92BC774}.Release|x64.Build.0 = Release|x64
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC}.Debug|x64.ActiveCfg = Debug|x64
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC}.Debug|x64.Build.0 = Debug|x64
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC}.Release|x64.ActiveCfg = Release|x64
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7A6D60A-F774-73CB-AF34-0A043C605EBC} = {569C5FFB-4CDE-635B-9D9C-820032ADAE87}
+		{0780DE66-1A46-2C93-A617-0FCFDA3DEBDC} = {92DA0AC8-EB7E-3F75-7898-AB06F56F21A6}
+		{EDD1C0DB-E732-E692-AEBA-F3D1119315F9} = {0780DE66-1A46-2C93-A617-0FCFDA3DEBDC}
+		{569C5FFB-4CDE-635B-9D9C-820032ADAE87} = {EDD1C0DB-E732-E692-AEBA-F3D1119315F9}
 	EndGlobalSection
 EndGlobal

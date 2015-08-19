@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7A6D60A-F774-73CB-AF34-0A043C605EBC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libuftp</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\.\bin\;$(MSBuildProjectDirectory)\.\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4530;4267;4244;4506;4024;4047;4018;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libuftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;WINDOWS;OPENSSL;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;;C:\OpenSSL-Win64\lib\libeay32.lib</AdditionalDependencies>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libuftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;WINDOWS;OPENSSL;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4530;4267;4244;4506;4024;4047;4018;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libuftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;WINDOWS;OPENSSL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\whalleya\.node-gyp\0.12.7\$(Configuration)\node.lib&quot;;C:\OpenSSL-Win64\lib\libeay32.lib</AdditionalDependencies>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\whalleya\.node-gyp\0.12.7\src;C:\Users\whalleya\.node-gyp\0.12.7\deps\uv\include;C:\Users\whalleya\.node-gyp\0.12.7\deps\v8\include;C:\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libuftp;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;WINDOWS;OPENSSL;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="uftp-4.7\uftp.1"/>
+    <None Include="uftp-4.7\uftp_keymgt.1"/>
+    <None Include="uftp-4.7\uftpd.1"/>
+    <None Include="uftp-4.7\uftpproxyd.1"/>
+    <None Include="uftp.gyp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uftp-4.7\client.h"/>
+    <ClInclude Include="uftp-4.7\client_announce.h"/>
+    <ClInclude Include="uftp-4.7\client_common.h"/>
+    <ClInclude Include="uftp-4.7\client_config.h"/>
+    <ClInclude Include="uftp-4.7\client_fileinfo.h"/>
+    <ClInclude Include="uftp-4.7\client_init.h"/>
+    <ClInclude Include="uftp-4.7\client_loop.h"/>
+    <ClInclude Include="uftp-4.7\client_transfer.h"/>
+    <ClInclude Include="uftp-4.7\encryption.h"/>
+    <ClInclude Include="uftp-4.7\heartbeat_send.h"/>
+    <ClInclude Include="uftp-4.7\proxy.h"/>
+    <ClInclude Include="uftp-4.7\proxy_common.h"/>
+    <ClInclude Include="uftp-4.7\proxy_config.h"/>
+    <ClInclude Include="uftp-4.7\proxy_downstream.h"/>
+    <ClInclude Include="uftp-4.7\proxy_init.h"/>
+    <ClInclude Include="uftp-4.7\proxy_loop.h"/>
+    <ClInclude Include="uftp-4.7\proxy_upstream.h"/>
+    <ClInclude Include="uftp-4.7\server.h"/>
+    <ClInclude Include="uftp-4.7\server_announce.h"/>
+    <ClInclude Include="uftp-4.7\server_common.h"/>
+    <ClInclude Include="uftp-4.7\server_config.h"/>
+    <ClInclude Include="uftp-4.7\server_init.h"/>
+    <ClInclude Include="uftp-4.7\server_phase.h"/>
+    <ClInclude Include="uftp-4.7\server_send.h"/>
+    <ClInclude Include="uftp-4.7\server_transfer.h"/>
+    <ClInclude Include="uftp-4.7\uftp.h"/>
+    <ClInclude Include="uftp-4.7\uftp_common.h"/>
+    <ClInclude Include="uftp-4.7\win_func.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="uftp-4.7\client_announce.c"/>
+    <ClCompile Include="uftp-4.7\client_common.c"/>
+    <ClCompile Include="uftp-4.7\client_config.c"/>
+    <ClCompile Include="uftp-4.7\client_fileinfo.c"/>
+    <ClCompile Include="uftp-4.7\client_init.c"/>
+    <ClCompile Include="uftp-4.7\client_loop.c"/>
+    <ClCompile Include="uftp-4.7\client_main.c"/>
+    <ClCompile Include="uftp-4.7\client_transfer.c"/>
+    <ClCompile Include="uftp-4.7\encrypt_cng.c"/>
+    <ClCompile Include="uftp-4.7\encrypt_cryptoapi.c"/>
+    <ClCompile Include="uftp-4.7\encrypt_none.c"/>
+    <ClCompile Include="uftp-4.7\encrypt_openssl.c"/>
+    <ClCompile Include="uftp-4.7\heartbeat_send.c"/>
+    <ClCompile Include="uftp-4.7\proxy_common.c"/>
+    <ClCompile Include="uftp-4.7\proxy_config.c"/>
+    <ClCompile Include="uftp-4.7\proxy_downstream.c"/>
+    <ClCompile Include="uftp-4.7\proxy_init.c"/>
+    <ClCompile Include="uftp-4.7\proxy_loop.c"/>
+    <ClCompile Include="uftp-4.7\proxy_main.c"/>
+    <ClCompile Include="uftp-4.7\proxy_upstream.c"/>
+    <ClCompile Include="uftp-4.7\server_announce.c"/>
+    <ClCompile Include="uftp-4.7\server_common.c"/>
+    <ClCompile Include="uftp-4.7\server_config.c"/>
+    <ClCompile Include="uftp-4.7\server_init.c"/>
+    <ClCompile Include="uftp-4.7\server_main.c"/>
+    <ClCompile Include="uftp-4.7\server_phase.c"/>
+    <ClCompile Include="uftp-4.7\server_send.c"/>
+    <ClCompile Include="uftp-4.7\server_transfer.c"/>
+    <ClCompile Include="uftp-4.7\uftp_common.c"/>
+    <ClCompile Include="uftp-4.7\uftp_keymgt.c"/>
+    <ClCompile Include="uftp-4.7\win_func.c"/>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

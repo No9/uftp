@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uftp-4.7">
+      <UniqueIdentifier>{A5914091-DBA3-49D6-75C1-ECA9F59AE552}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uftp-4.7\client.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_announce.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_announce.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_common.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_common.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_config.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_config.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_fileinfo.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_fileinfo.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_init.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_init.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_loop.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_loop.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\client_main.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\client_transfer.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\client_transfer.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\encrypt_cng.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\encrypt_cryptoapi.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\encrypt_none.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\encrypt_openssl.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\encryption.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\heartbeat_send.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\heartbeat_send.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClInclude Include="uftp-4.7\proxy.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_common.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_common.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_config.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_config.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_downstream.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_downstream.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_init.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_init.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_loop.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_loop.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\proxy_main.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\proxy_upstream.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\proxy_upstream.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClInclude Include="uftp-4.7\server.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_announce.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_announce.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_common.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_common.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_config.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_config.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_init.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_init.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_main.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClCompile Include="uftp-4.7\server_phase.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_phase.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_send.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_send.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\server_transfer.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\server_transfer.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <None Include="uftp-4.7\uftp.1">
+      <Filter>uftp-4.7</Filter>
+    </None>
+    <ClInclude Include="uftp-4.7\uftp.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <ClCompile Include="uftp-4.7\uftp_common.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\uftp_common.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <None Include="uftp-4.7\uftp_keymgt.1">
+      <Filter>uftp-4.7</Filter>
+    </None>
+    <ClCompile Include="uftp-4.7\uftp_keymgt.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <None Include="uftp-4.7\uftpd.1">
+      <Filter>uftp-4.7</Filter>
+    </None>
+    <None Include="uftp-4.7\uftpproxyd.1">
+      <Filter>uftp-4.7</Filter>
+    </None>
+    <ClCompile Include="uftp-4.7\win_func.c">
+      <Filter>uftp-4.7</Filter>
+    </ClCompile>
+    <ClInclude Include="uftp-4.7\win_func.h">
+      <Filter>uftp-4.7</Filter>
+    </ClInclude>
+    <None Include="uftp.gyp"/>
+  </ItemGroup>
+</Project>
